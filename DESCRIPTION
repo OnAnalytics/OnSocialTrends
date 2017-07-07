@@ -1,0 +1,13 @@
+Package: OnSocialTrends
+Type: Package
+Title: Data package containing data from the European Values Survey, General Social Survey, American National Election Studies and PEW Research Center
+Version: 0.0.0.9000
+Author: person("Vishal", "Singh", email = "vsingh@stern.nyu.edu",
+    role = c("aut", "cre"))
+Maintainer: Vishal Singh <vsingh@stern.nyu.edu>
+Description: The American National Election Studies (ANES) has been running studies and collecting data since 1948. It claims to have an aim of assisting teachers, researchers, data scientists and the like by conducting it's own surveys and making the data publicly available. More information can be found online at http://www.electionstudies.org.
+Depends: R (>= 2.10)
+License: MIT
+Encoding: UTF-8
+LazyData: true
+RoxygenNote: 6.0.1
