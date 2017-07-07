@@ -5,7 +5,7 @@
 #'
 #'@param e1, a raw data of ESS
 #'
-readESS <- function(e1){e1 <- dplyr::select(ess, name,
+readESS <- function(ess){e1 <- dplyr::select(ess, name,
                     happy	,
                     stflife	,
                     health	,
